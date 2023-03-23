@@ -10,7 +10,7 @@
 
 
 .background{
-    background-image: url(img/ffffc.png);
+    background-image: url(img/lis_fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -36,6 +36,10 @@ header{
     padding: 14px 14%;
 }
 
+.imglogo{
+    border-radius: 100px; /*Coloca a figura redondada*/
+   
+}
 
 .logo{
     font-weight: 500;
@@ -249,8 +253,26 @@ section h1{
     transition: all .35s ease;
 }
 
+.cartoes{
+    margin-top: 2rem;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+.cartoes img{
+    margin-top: 1rem;
+    width: 80px;
+    height: auto;
+}
+
 .last-text{
+    margin-top: 1rem;
     text-align: center;
     background-color: #555;
     color: #fff;
 }
+
+
+
+
