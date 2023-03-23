@@ -267,11 +267,21 @@ section h1{
 }
 
 .last-text{
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
     margin-top: 1rem;
     text-align: center;
     background-color: #555;
     color: #fff;
 }
+
+.last-text img{
+    width: 20px;
+    height: auto;
+    margin-top: 5px;
+}
+
 
 
 
