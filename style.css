@@ -10,13 +10,13 @@
 
 
 .background{
-    background-image: url(img/lis_fundo.png);
+    background-image: url(img/fundo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
     width: 100%;
     max-width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 
 header{
@@ -38,10 +38,11 @@ header{
 
 .imglogo{
     border-radius: 100px; /*Coloca a figura redondada*/
-   
+   width: 70px;
 }
 
 .logo{
+    margin-left: -200px;
     font-weight: 500;
     font-size: 1rem;
 }
@@ -134,7 +135,7 @@ section h1{
 .cta{
     height: 60vh;
     width: 100%;
-    background: url(../img/background.jpg);
+    background: url(../img/fundo3.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
